@@ -1,3 +1,3 @@
-MODELOS AVANZADOS PARA ANÁLISIS DE DATOS II	
+# **MODELOS AVANZADOS PARA ANÁLISIS DE DATOS II**	
 
-Profesor: Fabián Castiblanco
+*Profesor: Fabián Castiblanco*
