@@ -24,7 +24,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
   </tr>
  <tr>
     <td> 3. Matemáticas para redes neuronales  
-    <td> Introducción <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/A_First_NN.ipynb">First_Example_NN</a>
+    <td> Introducción <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/A_First_NN_.ipynb">First_Example_NN</a>
   </tr>
 </table>
 
