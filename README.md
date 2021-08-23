@@ -5,12 +5,12 @@
 <table>
 <caption>Mi tabla de ejemplo</caption>
   <tr>
-    <td> **1. Temática** </td>
-    <td> **Presentación/ notebook** </td>
+    <td> 1. Temática </td>
+    <td> Presentación/ notebook </td>
   </tr>
   <tr>
     <td> 1. Introducción y fundamentos </td>
-    <td> Presentación/ notebook </td>
+    <td> <a href="">First_Example_NN</a> </td>
   </tr>
   <tr>
     <td> 2. Inteligencia artificial, machine learning y deep learning 
