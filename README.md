@@ -2,9 +2,18 @@
 
 *Profesor: Fabián Castiblanco*
 
-<ol> 
- <li> Introducción y fundamentos
- <li> Introducción al curso. 
- <li>	Inteligencia artificial, machine learning y deep learning 
- <li> Matemáticas para redes neuronales 
- </o1> 
+<table>
+<caption>Mi tabla de ejemplo</caption>
+  <tr>
+    <td> 1. Introducción y fundamentos </td>
+    <td> Presentación/ notebook </td>
+  </tr>
+  <tr>
+    <td> 2. Inteligencia artificial, machine learning y deep learning 
+  </tr>
+ <tr>
+    <td> 3. Matemáticas para redes neuronales  
+    <td> Introducción <a href="URI">Contenido del enlace</a>
+  </tr>
+</table>
+
