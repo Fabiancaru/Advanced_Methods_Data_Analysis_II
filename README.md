@@ -5,6 +5,10 @@
 <table>
 <caption>Mi tabla de ejemplo</caption>
   <tr>
+    <td> **1. Temática** </td>
+    <td> **Presentación/ notebook** </td>
+  </tr>
+  <tr>
     <td> 1. Introducción y fundamentos </td>
     <td> Presentación/ notebook </td>
   </tr>
