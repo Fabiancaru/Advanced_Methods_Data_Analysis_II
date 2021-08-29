@@ -1,0 +1,8 @@
+The engine of neural networks
+
+network example transforms its input data as follows: 
+
+$output = relu(dot(W, input) + b)$
+
+In this expression, W and b are tensors that are attributes of the layer. They’re called the weights or trainable parameters of the layer 
+(the kernel and bias attributes, respectively).
