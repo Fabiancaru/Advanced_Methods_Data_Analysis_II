@@ -13,11 +13,12 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
   <tr>
     <td> <strong>Temática</strong> </td>
     <td> <strong>Presentación/ notebook </strong></td>
+    <td> <strong>Ejercicios</strong></td>
   </tr>
   <tr>
     <td> 1. Introducción y fundamentos </td>
     <td rowspan="2"><a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Advanced_Methods_in_Data_Analysis_II.pdf">AI_ML_DL_Presentation </td></td>
-    
+    <td rowspan="2"></td>
   </tr>
   <tr>
     <td> 2. Inteligencia artificial, machine learning y deep learning 
@@ -26,6 +27,8 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
     <td> 3. Matemáticas para redes neuronales  
     <td> <li> Introducción <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/A_First_NN_.ipynb">First_Example_NN</a>
          <li> <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Data_representation.ipynb"> Data_representation</a>
+    <td> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercise_1.md"> Exercise_1</a></td>
   </tr>
+
 </table>
 
