@@ -27,8 +27,9 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
     <td> 3. Matemáticas para redes neuronales  
     <td> <li> Introducción <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/A_First_NN_.ipynb">First_Example_NN</a>
          <li> <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Data_representation.ipynb"> Data_representation</a>
-      <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/The_engine_of_neural_networks.md"</a>Gradient-based_optimization_Intuitive_idea
-    <td> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercise_1.md"> Exercise_1</a></td>
+         <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/The_engine_of_neural_networks.md"</a>Gradient-based_optimization_Intuitive_idea
+    <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercise_1.md"> Exercise_1</a>
+         <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Uniandes_Proj_1.pdf"> Suggested_project</a></td>
   </tr>
 
 </table>
