@@ -9,7 +9,8 @@ Consider a neural network with a single input neuron, an output neuron, and two 
 
 ![red1](https://user-images.githubusercontent.com/86980802/132998336-416ae049-c687-462b-8181-4cd5953d9287.png)
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=C%28w_%7B1%7Db_%7B1%7D%2C%20w_%7B2%7Db_%7B2%7D%2C%20w_%7B3%7Db_%7B3%7D%29&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="C(w_{1}b_{1}, w_{2}b_{2}, w_{3}b_{3})" width="275" height="39" />
+![Tex2Img_1631553615](https://user-images.githubusercontent.com/86980802/133128603-643f112a-cc83-4308-bd25-45a2693c110a.jpg)
+
 
 and only consider the last two neurons
 
@@ -18,12 +19,13 @@ and only consider the last two neurons
 
 In this case we have:
 
-<img src=
-"http://www.sciweavers.org/tex2img.php?eq=a%5E%7B%28L%29%7D%3D%5Csigma%28w%5E%7B%28L%29%7D%20a%5E%7B%28L-1%29%7D%2Bb%5E%7B%28L%29%7D%29%20%20&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="a^{(L)}=\sigma(w^{(L)} a^{(L-1)}+b^{(L)})  " width="378" height="44" /> 
+![Tex2Img_1631553712](https://user-images.githubusercontent.com/86980802/133128766-85fef6a7-f2ff-443d-85a3-e34602080b7b.jpg)
+
  
 and     
 
-<img src="https://bit.ly/3CaUcdH" align="center" border="0" alt="C_{0}=(a^{(L)}-y)^{2}" width="233" height="44" />
+![Tex2Img_1631553800](https://user-images.githubusercontent.com/86980802/133128938-dea28868-0348-4e0f-b752-401d8251f00f.jpg)
+
 
 
 Where *y* is the expected target and for simplicity we use MSE.
@@ -31,11 +33,13 @@ Where *y* is the expected target and for simplicity we use MSE.
 
 Let us denote by
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=Z%5E%7B%28L%29%7D%3Dw%5E%7B%28L%29%7D%20a%5E%7B%28L-1%29%7D%2Bb%5E%7B%28L%29%7D&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="Z^{(L)}=w^{(L)} a^{(L-1)}+b^{(L)}" width="339" height="39" />
+![Tex2Img_1631553849](https://user-images.githubusercontent.com/86980802/133129041-59b5d646-5c65-42db-b1ff-171557647876.jpg)
+
 
 Therefore, we have 
 
-<img src="https://bit.ly/3C7czzU" align="center" border="0" alt="a^{(L)}=\sigma (Z^{(L)})" width="206" height="44" />
+![Tex2Img_1631553893](https://user-images.githubusercontent.com/86980802/133129150-3eabfb01-90a9-4bf5-a118-314af9481f34.jpg)
+
 
 
 🏁 **The objective is to understand the sensitivity of the cost function to weights and biases. Once this is understood, we can determine how to make very small changes in these variables to reduce the cost function.** 
@@ -47,34 +51,40 @@ Compute the gradient of the loss with regard to the network’s parameters (a ba
 
 According to the above, by the chain rule, we have:  
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%3D%5Cfrac%7B%5Cpartial%20z%5E%7B%28L%29%7D%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20a%5E%7B%28L%29%7D%7D%7B%5Cpartial%20Z%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20a%5E%7B%28L%29%7D%7D&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt=" \frac{\partial C_{0}}{\partial w^{(L)}}=\frac{\partial z^{(L)}}{\partial w^{(L)}} \frac{\partial a^{(L)}}{\partial Z^{(L)}} \frac{\partial C_{0}}{\partial a^{(L)}}" width="378" height="78" />
+
+![Tex2Img_1631561974](https://user-images.githubusercontent.com/86980802/133146105-b07c36c1-58e3-41b5-a0b7-e7896ebb89e8.jpg)
+
 
 And thus, 
 
 
-  1️⃣<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20a%5E%7B%28L%29%7D%7D%3D2%28a%5E%7B%28L%29%7D-y%29&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial C_{0}}{\partial a^{(L)}}=2(a^{(L)}-y)" width="206" height="54" />  </li>
+  1️⃣![Tex2Img_1631562035](https://user-images.githubusercontent.com/86980802/133146215-466791f6-0764-49e4-bf65-aad4618af54a.jpg)
   
-  2️⃣<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20a%5E%7B%28L%29%7D%7D%7B%5Cpartial%20Z%5E%7B%28L%29%7D%7D%20%3D%20%5Csigma%5E%7B%5Cprime%7D%28Z%5E%7B%28L%29%7D%29&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial a^{(L)}}{\partial Z^{(L)}} = \sigma^{\prime}(Z^{(L)})" width="183" height="58" />
+  2️⃣![Tex2Img_1631562092](https://user-images.githubusercontent.com/86980802/133146314-092e93c0-eddf-4ea4-bbcf-670e1247f46e.jpg)
   
-  3️⃣<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20z%5E%7B%28L%29%7D%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%3Da%5E%7B%28L-1%29%7D&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial z^{(L)}}{\partial w^{(L)}}=a^{(L-1)}" width="160" height="58" />
+  3️⃣![Tex2Img_1631562143](https://user-images.githubusercontent.com/86980802/133146412-70a40918-3b1c-443e-898b-cb7bef1108e8.jpg)
+
 
 
 This corresponds only to the first training example, i.e.,
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%3Da%5E%7B%28L-1%29%7D%5Csigma%5E%7B%5Cprime%7D%28Z%5E%7B%28L%29%7D%292%28a%5E%7B%28L%29%7D-y%29%0A%0A%0A%0A&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial C_{0}}{\partial w^{(L)}}=a^{(L-1)}\sigma^{\prime}(Z^{(L)})2(a^{(L)}-y)" width="358" height="54" />
+![Tex2Img_1631562190](https://user-images.githubusercontent.com/86980802/133146535-71d347cf-f52f-4a50-b00e-ad91f200eaba.jpg)
+
 
 Now, our total cost function would be:
 
+![Tex2Img_1631562283](https://user-images.githubusercontent.com/86980802/133146713-6904dcce-9304-48b6-a94b-1d8514a8f371.jpg)
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20C%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bk%3D0%7D%5E%7Bn-1%7D%20%5Cfrac%7B%20%5Cpartial%20C_%7Bk%7D%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%0A%0A&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial C}{\partial w^{(L)}}= \frac{1}{n} \sum_{k=0}^{n-1} \frac{ \partial C_{k}}{\partial w^{(L)}}" width="297" height="100" />
 
 And therefore, you have a part of the gradient
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%20%20%5CDelta%20C%20%3D%20%5Cbegin%7Bbmatrix%7D%5Cfrac%7B%5Cpartial%20C%7D%7B%5Cpartial%20w%5E%7B%281%29%7D%7D%20%20%5C%5C%20%5Cfrac%7B%5Cpartial%20C%7D%7B%5Cpartial%20b%5E%7B%281%29%7D%7D%20%5C%5C%20%5Cvdots%20%5C%5C%20%5Cfrac%7B%5Cpartial%20C%7D%7B%5Cpartial%20w%5E%7B%28L%29%7D%7D%20%5C%5C%20%5Cfrac%7B%5Cpartial%20C%7D%7B%5Cpartial%20b%5E%7B%28L%29%7D%7D%20%20%5Cend%7Bbmatrix%7D%20%0A%0A&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="  \Delta C = \begin{bmatrix}\frac{\partial C}{\partial w^{(1)}}  \\ \frac{\partial C}{\partial b^{(1)}} \\ \vdots \\ \frac{\partial C}{\partial w^{(L)}} \\ \frac{\partial C}{\partial b^{(L)}}  \end{bmatrix} " width="214" height="225" />
+![Tex2Img_1631562321](https://user-images.githubusercontent.com/86980802/133146822-5770bb7e-c729-4299-bb63-672042f5ebca.jpg)
+
 
 The other part of the gradient corresponds to the derivatives with respect to the bias, i.e., 
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20b%5E%7B%28L%29%7D%7D%3D%5Cfrac%7B%5Cpartial%20z%5E%7B%28L%29%7D%7D%7B%5Cpartial%20b%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20a%5E%7B%28L%29%7D%7D%7B%5Cpartial%20Z%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20a%5E%7B%28L%29%7D%7D%3D%5Csigma%5E%7B%5Cprime%7D%28Z%5E%7B%28L%29%7D%292%28a%5E%7B%28L%29%7D-y%29&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial C_{0}}{\partial b^{(L)}}=\frac{\partial z^{(L)}}{\partial b^{(L)}} \frac{\partial a^{(L)}}{\partial Z^{(L)}} \frac{\partial C_{0}}{\partial a^{(L)}}=\sigma^{\prime}(Z^{(L)})2(a^{(L)}-y)" width="504" height="58" />
+![Tex2Img_1631562379](https://user-images.githubusercontent.com/86980802/133146926-f588c432-3d1c-48df-977f-24fb63b01d95.jpg)
+
 
 And so, we have the gradient for a network with a single neuron in each layer.  But the process is the same, if you increase the number of layers and neurons. 
 
@@ -82,7 +92,8 @@ And so, we have the gradient for a network with a single neuron in each layer.  
 
 Therefore, the cost function of the last layer will be: 
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20w_%7Bjk%7D%5E%7B%28L%29%7D%7D%3D%5Cfrac%7B%5Cpartial%20z_%7Bj%7D%5E%7B%28L%29%7D%7D%7B%5Cpartial%20w_%7Bjk%7D%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20a_%7Bj%7D%5E%7B%28L%29%7D%7D%7B%5Cpartial%20Z_%7Bj%7D%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20a_%7Bj%7D%5E%7B%28L%29%7D%7D&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial C_{0}}{\partial w_{jk}^{(L)}}=\frac{\partial z_{j}^{(L)}}{\partial w_{jk}^{(L)}} \frac{\partial a_{j}^{(L)}}{\partial Z_{j}^{(L)}} \frac{\partial C_{0}}{\partial a_{j}^{(L)}}" width="283" height="81" />
+![Tex2Img_1631562444](https://user-images.githubusercontent.com/86980802/133147065-54a154b2-2d8d-4a71-8b72-0ebbd095e1bf.jpg)
+
 
 However, considering the previous layer, we have:
 
