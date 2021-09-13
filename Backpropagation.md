@@ -18,7 +18,8 @@ and only consider the last two neurons
 
 In this case we have:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=a%5E%7B%28L%29%7D%3D%5Csigma%28w%5E%7B%28L%29%7D%20a%5E%7B%28L-1%29%7D%2Bb%5E%7B%28L%29%7D%29%20%20&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="a^{(L)}=\sigma(w^{(L)} a^{(L-1)}+b^{(L)})  " width="378" height="44" /> 
+<img src=
+"http://www.sciweavers.org/tex2img.php?eq=a%5E%7B%28L%29%7D%3D%5Csigma%28w%5E%7B%28L%29%7D%20a%5E%7B%28L-1%29%7D%2Bb%5E%7B%28L%29%7D%29%20%20&bc=White&fc=Black&im=jpg&fs=24&ff=mathdesign&edit=0" align="center" border="0" alt="a^{(L)}=\sigma(w^{(L)} a^{(L-1)}+b^{(L)})  " width="378" height="44" /> 
  
 and     
 
@@ -85,5 +86,6 @@ Therefore, the cost function of the last layer will be:
 
 However, considering the previous layer, we have:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20a_%7Bk%7D%5E%7B%28L-1%29%7D%7D%3D%5Csum_%7Bj%3D0%7D%5E%7Bn_%7BL-1%7D%7D%20%5Cfrac%7B%5Cpartial%20z_%7Bj%7D%5E%7B%28L%29%7D%7D%7B%5Cpartial%20a_%7Bk%7D%5E%7B%28L-1%29%7D%7D%20%5Cfrac%7B%5Cpartial%20a_%7Bj%7D%5E%7B%28L%29%7D%7D%7B%5Cpartial%20Z_%7Bj%7D%5E%7B%28L%29%7D%7D%20%5Cfrac%7B%5Cpartial%20C_%7B0%7D%7D%7B%5Cpartial%20a_%7Bj%7D%5E%7B%28L%29%7D%7D&bc=White&fc=Black&im=jpg&fs=18&ff=mathdesign&edit=0" align="center" border="0" alt="\frac{\partial C_{0}}{\partial a_{k}^{(L-1)}}=\sum_{j=0}^{n_{L-1}} \frac{\partial z_{j}^{(L)}}{\partial a_{k}^{(L-1)}} \frac{\partial a_{j}^{(L)}}{\partial Z_{j}^{(L)}} \frac{\partial C_{0}}{\partial a_{j}^{(L)}}" width="362" height="79" />
+![Tex2Img_1631517689](https://user-images.githubusercontent.com/86980802/133041122-7839bc64-ab7f-4b52-84a4-e512c035de5b.jpg)
+
 
