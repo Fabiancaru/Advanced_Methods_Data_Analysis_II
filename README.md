@@ -36,6 +36,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
   <td> 3. Arquitectura y construcción de distintas redes
 
   <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Architecture.md">Architecture</a>
+       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Architecture2.md">Architecture_2</a>
   <td> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercise_2.md"> Exercise_2</a>
 </tr>
 </table>
