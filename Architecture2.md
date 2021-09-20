@@ -111,14 +111,17 @@ where *G* is sum of the squares of the past gradients
 
 <h3> RMSprop </h3>
 
-<li> RMSProp is Root Mean Square Propagation. It was devised by Geoffrey Hinton.
+<li> RMSProp is Root Mean Square Propagation. 
 <li> RMSProp tries to resolve Adagrad’s radically diminishing learning rates by using a moving average of the squared gradient. It utilizes the magnitude of the recent gradient  descents to normalize the gradient.
 <li> In RMSProp learning rate gets adjusted automatically and it chooses a different learning rate for each parameter.
 <li> RMSProp divides the learning rate by the average of the exponential decay of squared gradients
 
 
-<h3> Adam. Adaptive Moment Estimation <h3> 
+<h3> Adam. Adaptive Moment Estimation </h3> 
  
- 
+Adam implements the exponential moving average of the gradients to scale the learning rate instead of a simple average as in Adagrad. It keeps an exponentially decaying average of past gradients.
+  
+  
+  
 <body style="margin: 0px; background: #0e0e0e; height: 100%"><img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://miro.medium.com/max/724/1*SjtKOauOXFVjWRR7iCtHiA.gif">
 
