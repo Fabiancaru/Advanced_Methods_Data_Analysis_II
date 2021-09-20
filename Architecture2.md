@@ -121,7 +121,8 @@ where *G* is sum of the squares of the past gradients
  
 Adam implements the exponential moving average of the gradients to scale the learning rate instead of a simple average as in Adagrad. It keeps an exponentially decaying average of past gradients.
   
-  
+  <a href="http://cs229.stanford.edu/proj2015/054_report.pdf">Optimizer_algorithms</a>
+ 
   
 <body style="margin: 0px; background: #0e0e0e; height: 100%"><img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://miro.medium.com/max/724/1*SjtKOauOXFVjWRR7iCtHiA.gif">
 
