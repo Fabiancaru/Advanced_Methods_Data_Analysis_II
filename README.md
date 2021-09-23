@@ -29,7 +29,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
          <li> <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Data_representation.ipynb"> Data_representation</a>
          <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/The_engine_of_neural_networks.md"</a>Gradient-based_optimization_Intuitive_idea
          <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Backpropagation.md"</a>Backpropagation   
-    <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercise_1.md"> Exercise_1</a>
+    <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_1.md"> Exercise_1</a>
          <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Uniandes_Proj_1.pdf"> Suggested_project</a></td>
   </tr>
 <tr>
@@ -37,7 +37,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
 
   <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Architecture.md">Architecture</a>
        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Architecture2.md">Architecture_2</a>
-  <td> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercise_2.md"> Exercise_2</a>
+  <td> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_2.md"> Exercise_2</a>
 </tr>
 </table>
 
