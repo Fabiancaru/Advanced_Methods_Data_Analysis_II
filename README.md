@@ -30,7 +30,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
          <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/The_engine_of_neural_networks.md"</a>Gradient-based_optimization_Intuitive_idea
          <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Backpropagation.md"</a>Backpropagation   
     <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_1.md"> Exercise_1</a>
-         <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Uniandes_Proj_1.pdf"> Suggested_project</a></td>
+         <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Suggested_project/Suggested_project_1.md"> Suggested_project</a></td>
   </tr>
 <tr>
   <td> 3. Arquitectura y construcción de distintas redes
