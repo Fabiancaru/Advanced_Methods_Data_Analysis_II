@@ -7,3 +7,6 @@
 <li>Build a neural network according to the problem of facial recognition (the best possible). Compare your network with at least two additional classification techniques.
 
 <li>Deliver a .ipynb file with the built network and the comparison process.
+  
+  
+[Uniandes_Proj_1.pdf](https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/files/7219727/Uniandes_Proj_1.pdf)
