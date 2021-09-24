@@ -35,8 +35,9 @@ https://user-images.githubusercontent.com/86980802/133947220-c95225a8-7229-4ef2-
 **How can we avoid local minima and always try and get the optimized weights based on global minima?**
   
 1️⃣ **Batch Gradient Descent**: use the entire dataset to compute the gradient of the cost function for each iteration of the gradient descent and then update the weights. 
-  
-  
+ ``` 
+  model_network.fit(X_train_image, y_train_labels, epochs=5, batch_size=128")
+ ```  
 2️⃣ **Stochastic Gradient Descent**: use a single datapoint or example to calculate the gradient and update the weights with every iteration.
   
   
