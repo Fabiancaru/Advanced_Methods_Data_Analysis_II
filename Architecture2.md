@@ -154,3 +154,34 @@ Where
   
 <body style="margin: 0px; background: #0e0e0e; height: 100%"><img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://miro.medium.com/max/724/1*SjtKOauOXFVjWRR7iCtHiA.gif">
 
+  <h2> Loss Function </h2>
+
+In the context of an optimization algorithm, the function used to evaluate a candidate solution (i.e. a set of weights) is referred to as the objective function.
+  
+  Typically, with neural networks, we seek to minimize the error. As such, the objective function is often referred to as a cost function or a loss function and the value calculated by the loss function is referred to as simply “loss.”
+  
+  The cost function reduces all the various good and bad aspects of a possibly complex system down to a single number, a scalar value, which allows candidate solutions to be ranked and compared.
+  
+  
+**Regression Problem**
+
+
+<li> *Output Layer Configuration*: One node with a linear activation unit.
+<li> *Loss Function*: Mean Squared Error (MSE).
+
+  
+**Binary Classification Problem**
+  
+A problem where you classify an example as belonging to one of two classes.
+
+The problem is framed as predicting the likelihood of an example belonging to class one, e.g. the class that you assign the integer value 1, whereas the other class is assigned the value 0.
+
+<li> *Output Layer Configuration*: One node with a sigmoid activation unit.
+<li> *Loss Function*: Cross-Entropy, also referred to as Logarithmic loss.
+
+  **Multi-Class Classification Problem**
+
+  A problem where you classify an example as belonging to one of more than two classes. The problem is framed as predicting the likelihood of an example belonging to each class.
+
+<li> *Output Layer Configuration*: One node for each class using the softmax activation function.
+<li> *Loss Function*: Cross-Entropy, also referred to as Logarithmic loss.
