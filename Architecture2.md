@@ -35,15 +35,26 @@ https://user-images.githubusercontent.com/86980802/133947220-c95225a8-7229-4ef2-
 **How can we avoid local minima and always try and get the optimized weights based on global minima?**
   
 1️⃣ **Batch Gradient Descent**: use the entire dataset to compute the gradient of the cost function for each iteration of the gradient descent and then update the weights. 
- ``` 
-  model_network.fit(X_train_image, y_train_labels, epochs=5, batch_size=128")
+
+  **Batch size is set to the total number of examples in the training dataset.**
+  ``` 
+  model_network.fit(X_train_image, y_train_labels, epochs=5, batch_size=len(len(X_train_image)")
  ```  
+  
 2️⃣ **Stochastic Gradient Descent**: use a single datapoint or example to calculate the gradient and update the weights with every iteration.
   
   
-3️⃣ **Mini batch Gradient Descent**: is a variation of stochastic gradient descent where instead of single training example, mini-batch of samples is used.
+  **Batch size is set to one.**
   
-
+  ```
+  model_network.fit(X_train_image, y_train_labels, epochs=5, batch_size=1")
+```  
+3️⃣ **Mini batch Gradient Descent**: is a variation of stochastic gradient descent where instead of single training example, mini-batch of samples is used.
+ 
+  **Batch size is set to more than one and less than the total number of examples in the training dataset.**
+```
+  model_network.fit(X_train_image, y_train_labels, epochs=5, batch_size=128")
+```
 https://user-images.githubusercontent.com/86980802/133948045-e47d5605-81ef-42e1-906d-d7f94539aa23.mp4
 
   <h2> Types of Optimizers </h2>
@@ -100,7 +111,7 @@ Calculate the gradient not with respect to the current step but with respect to 
 
 Adagrad is an adaptive learning rate method. 
 
-In Adagrad we adopt the learning rate to the parameters. We perform larger updates for infrequent parameters and smaller updates for frequent parameters.
+In Adagrad we adopt the **learning rate** to the parameters. We perform larger updates for infrequent parameters and smaller updates for frequent parameters.
 
 For SGD, Momentum, and NAG we use the same learning rate **α**. In Adagrad we use different learning rate for every parameter **W** for every time step *n*.
 
