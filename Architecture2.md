@@ -142,7 +142,13 @@ Adam implements the exponential moving average of the gradients to scale the lea
   
 ![Tex2Img_1632640194](https://user-images.githubusercontent.com/86980802/134797610-700306de-bd7e-497f-a08b-485f43831e63.jpg)
 
+Where
+  
+  ![Tex2Img_1632667966](https://user-images.githubusercontent.com/86980802/134812947-feebc5f9-e02c-415c-b45d-0179118ed09a.jpg)
 
+  ![Tex2Img_1632669417](https://user-images.githubusercontent.com/86980802/134814207-7e7c9174-8ff6-499a-b219-5ba2ff18039d.jpg)
+
+  
   <a href="http://cs229.stanford.edu/proj2015/054_report.pdf">Optimizer_algorithms</a>
  
   
