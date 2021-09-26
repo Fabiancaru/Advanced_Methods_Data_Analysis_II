@@ -129,6 +129,13 @@ where *G* is sum of the squares of the past gradients
 <li> RMSProp divides the learning rate by the average of the exponential decay of squared gradients
 
 
+![Tex2Img_1632639398](https://user-images.githubusercontent.com/86980802/134797141-b49ea622-8813-4cbc-856f-30342e605e11.jpg)
+
+  
+  Where γ is the decay term that takes value from 0 to 1. gn is moving average of squared gradients.
+  
+  
+
 <h3> Adam. Adaptive Moment Estimation </h3> 
  
 Adam implements the exponential moving average of the gradients to scale the learning rate instead of a simple average as in Adagrad. It keeps an exponentially decaying average of past gradients.
