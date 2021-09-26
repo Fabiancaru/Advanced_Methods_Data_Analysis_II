@@ -166,8 +166,8 @@ In the context of an optimization algorithm, the function used to evaluate a can
 **Regression Problem**
 
 
-<li> *Output Layer Configuration*: One node with a linear activation unit.
-<li> *Loss Function*: Mean Squared Error (MSE).
+<li> <i> Output Layer Configuration </i>: One node with a linear activation unit.
+<li> <i> Loss Function </i>: Mean Squared Error (MSE).
 
   
 **Binary Classification Problem**
@@ -176,12 +176,12 @@ A problem where you classify an example as belonging to one of two classes.
 
 The problem is framed as predicting the likelihood of an example belonging to class one, e.g. the class that you assign the integer value 1, whereas the other class is assigned the value 0.
 
-<li> *Output Layer Configuration*: One node with a sigmoid activation unit.
-<li> *Loss Function*: Cross-Entropy, also referred to as Logarithmic loss.
+<li> <i> Output Layer Configuration </i>: One node with a sigmoid activation unit.
+<li> <i> Loss Function </i>: Cross-Entropy, also referred to as Logarithmic loss.
 
   **Multi-Class Classification Problem**
 
   A problem where you classify an example as belonging to one of more than two classes. The problem is framed as predicting the likelihood of an example belonging to each class.
 
-<li> *Output Layer Configuration*: One node for each class using the softmax activation function.
-<li> *Loss Function*: Cross-Entropy, also referred to as Logarithmic loss.
+<li> <i> Output Layer Configuration </i>: One node for each class using the softmax activation function.
+<li> <i> Loss Function </i>: Cross-Entropy, also referred to as Logarithmic loss.
