@@ -149,7 +149,7 @@ Where
   ![Tex2Img_1632669417](https://user-images.githubusercontent.com/86980802/134814207-7e7c9174-8ff6-499a-b219-5ba2ff18039d.jpg)
 
   
-  <a href="http://cs229.stanford.edu/proj2015/054_report.pdf">Optimizer_algorithms</a>
+  <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/algorithms_optimizer/Dozat(stanford).pdf">Optimizer_algorithms</a>
  
   
 <body style="margin: 0px; background: #0e0e0e; height: 100%"><img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://miro.medium.com/max/724/1*SjtKOauOXFVjWRR7iCtHiA.gif">
@@ -202,17 +202,17 @@ The problem is framed as predicting the likelihood of an example belonging to cl
   
 **Regression Problem**
   
-<li> **Mean Absolute Error**
+<li> <b>Mean Absolute Error</b>
      
   ![MAE](https://user-images.githubusercontent.com/86980802/134844562-9ca62d5c-66bf-47b6-a2ce-c811c926748d.png)
 
-<li> **Root Mean Square error**
+<li> <b>Root Mean Square error</b>
   
 ![RMSE](https://user-images.githubusercontent.com/86980802/134844587-3b8f316e-e5a9-48f6-b295-df4d5d39d142.jpg)
 
-  <li> **Huber loss**
+  <li> <b>Huber loss</b>
   
   ![hubber](https://user-images.githubusercontent.com/86980802/134844966-45ba6a2e-e623-48c9-a689-8fca032aeaca.png)
     
-    See: <a href="https://keras.io/api/losses/">KERAS_LOSSES</a>
+   See <a href="https://keras.io/api/losses/">KERAS_LOSSES</a>
 
