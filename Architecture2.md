@@ -185,14 +185,28 @@ The problem is framed as predicting the likelihood of an example belonging to cl
 
 <li> <i> Output Layer Configuration </i>: One node for each class using the softmax activation function.
 <li> <i> Loss Function </i>: Cross-Entropy, also referred to as Logarithmic loss.
+
   
+  -------------------------------------------------------------------------------------------------------------------------------------
+<u>These are not the only loss functions. There is a wide variety of them for both classification problems and regression problems.</u>
+  -------------------------------------------------------------------------------------------------------------------------------------
   
-  
-  These are not the only loss functions. There is a wide variety of them for both classification problems and regression problems.
   
   **Classification Problem**
   
   
-  ![loss](https://user-images.githubusercontent.com/86980802/134843073-eed02e5a-9174-45ba-b4a4-9496cad1e610.png)
+  ![loss](https://user-images.githubusercontent.com/86980802/134843073-eed02e5a-9174-45ba-b4a4-9496cad1e610.png) 
+  
+  source: <a href= "https://arxiv.org/pdf/1702.05659.pdf"> On_Loss_Functions_for_Deep_Neural_Networks_in Classification </a>
+  
+**Regression Problem**
+  
+  
+  ![MAE](https://user-images.githubusercontent.com/86980802/134844562-9ca62d5c-66bf-47b6-a2ce-c811c926748d.png)
+  
+  
+![RMSE](https://user-images.githubusercontent.com/86980802/134844587-3b8f316e-e5a9-48f6-b295-df4d5d39d142.jpg)
 
   
+  ![hubber](https://user-images.githubusercontent.com/86980802/134844966-45ba6a2e-e623-48c9-a689-8fca032aeaca.png)
+
