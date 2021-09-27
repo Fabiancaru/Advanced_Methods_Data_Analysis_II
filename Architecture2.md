@@ -194,19 +194,25 @@ The problem is framed as predicting the likelihood of an example belonging to cl
   
   **Classification Problem**
   
-  
+
+   
   ![loss](https://user-images.githubusercontent.com/86980802/134843073-eed02e5a-9174-45ba-b4a4-9496cad1e610.png) 
   
   source: <a href= "https://arxiv.org/pdf/1702.05659.pdf"> On_Loss_Functions_for_Deep_Neural_Networks_in Classification </a>
   
 **Regression Problem**
   
-  
+<li> **Mean Absolute Error**
+     
   ![MAE](https://user-images.githubusercontent.com/86980802/134844562-9ca62d5c-66bf-47b6-a2ce-c811c926748d.png)
-  
+
+<li> **Root Mean Square error**
   
 ![RMSE](https://user-images.githubusercontent.com/86980802/134844587-3b8f316e-e5a9-48f6-b295-df4d5d39d142.jpg)
 
+  <li> **Huber loss**
   
   ![hubber](https://user-images.githubusercontent.com/86980802/134844966-45ba6a2e-e623-48c9-a689-8fca032aeaca.png)
+    
+    See: <a href="https://keras.io/api/losses/">KERAS_LOSSES</a>
 
