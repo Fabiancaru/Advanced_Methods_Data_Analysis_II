@@ -185,3 +185,14 @@ The problem is framed as predicting the likelihood of an example belonging to cl
 
 <li> <i> Output Layer Configuration </i>: One node for each class using the softmax activation function.
 <li> <i> Loss Function </i>: Cross-Entropy, also referred to as Logarithmic loss.
+  
+  
+  
+  These are not the only loss functions. There is a wide variety of them for both classification problems and regression problems.
+  
+  **Classification Problem**
+  
+  
+  ![loss](https://user-images.githubusercontent.com/86980802/134843073-eed02e5a-9174-45ba-b4a4-9496cad1e610.png)
+
+  
