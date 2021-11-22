@@ -41,6 +41,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Convnets.md">Convnets</a>
        <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Convnets.ipynb">Code Convnets</a>
        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/RNN.md">RNN </a>
+       <li> <a herf="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/LSTM.ipynb">Code RNN_LSTM
   <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_2.md"> Exercise_2</a>
        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_3.md"> Exercise_3 </a>
     
