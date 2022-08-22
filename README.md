@@ -15,7 +15,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
     <td> <strong>Presentación/ notebook </strong></td>
     <td> <strong>Ejercicios</strong></td>
   </tr>
-  <tr>
+<!--  <tr>
     <td> 1. Introducción y fundamentos </td>
     <td rowspan="2"><a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Advanced_Methods_in_Data_Analysis_II.pdf">AI_ML_DL_Presentation </td></td>
     <td rowspan="2"></td>
@@ -47,6 +47,6 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_3.md"> Exercise_3 </a>
     
     
-</tr>
+</tr> -->
 </table>
 
