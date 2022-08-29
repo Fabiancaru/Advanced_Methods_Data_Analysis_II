@@ -48,5 +48,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
     
     
 </tr> 
+<td> 4. Recommender Systems 
+<td>  <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Recomm_Syst.ipynb">Code Recomm_Syst</a>
 </table> 
 
