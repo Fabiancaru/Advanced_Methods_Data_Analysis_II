@@ -26,10 +26,11 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
  <tr>
     <td> 3. Matemáticas para redes neuronales  
     <td> <li> Introducción <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/A_First_NN_.ipynb">First_Example_NN</a>
- <!--    <li> <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Data_representation.ipynb"> Data_representation</a>  -->
-  <!--       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/The_engine_of_neural_networks.md"</a>Gradient-based_optimization_Intuitive_idea -->
-     <!--    <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Backpropagation.md"</a>Backpropagation  --> 
+    <li> <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Data_representation.ipynb"> Data_representation</a>  
+         <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/The_engine_of_neural_networks.md"</a>Gradient-based_optimization_Intuitive_idea 
+        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Backpropagation.md"</a>Backpropagation  
     <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_1.md"> Exercise_1</a>
+         <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_2.md"> Exercise_2</a>
      <!--    <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Suggested_project/Suggested_project_1.md"> Suggested_project</a></td> -->
   </tr>
 <tr>
@@ -43,7 +44,7 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
 <!--       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/RNN.md">RNN </a> -->
 <!--       <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/LSTM.ipynb">Code RNN_LSTM</a> -->
    
-<!--  <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_2.md"> Exercise_2</a> -->
+       
 <!--       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_3.md"> Exercise_3 </a> -->
     
     
