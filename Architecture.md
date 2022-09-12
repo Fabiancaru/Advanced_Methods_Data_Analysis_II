@@ -30,6 +30,12 @@ There are perhaps three activation functions you may want to consider for use in
 
 A general problem with both the sigmoid and tanh functions is that they saturate. This means that large values snap to 1.0 and small values snap to -1 or 0 for tanh and sigmoid respectively. Further, the functions are only really sensitive to changes around their mid-point of their input, such as 0.5 for sigmoid and 0.0 for tanh.
 
+  
+  
+  ![sigmoide](https://user-images.githubusercontent.com/86980802/189765390-638f10cf-7867-4d0f-b2c3-1b4575559d2c.png)
+
+  ![tanh](https://user-images.githubusercontent.com/86980802/189765404-2dc26c7c-cba9-4bf3-80e0-739c974b8c7b.png)
+
 Layers deep in large networks using these nonlinear activation functions fail to receive useful gradient information. Error is back propagated through the network and used to 
 update the weights. The amount of error decreases dramatically with each additional layer through which it is propagated, given the derivative of the chosen activation function. 
  **This is called the vanishing gradient problem.**
