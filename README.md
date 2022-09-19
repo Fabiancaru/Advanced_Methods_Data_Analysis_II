@@ -39,8 +39,8 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
   <td> <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Architecture.md">Architecture</a> 
        <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Architecture2.md">Architecture_2</a> 
 <!--       <li> <a href="https://nbviewer.jupyter.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Fashion_opt_Search.ipynb">Hyperparameter_Optimization</a> -->
-<!--       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Convnets.md">Convnets</a> -->
-<!--       <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Convnets.ipynb">Code Convnets</a> -->
+       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Convnets.md">Convnets</a> 
+       <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Convnets.ipynb">Code Convnets</a> 
 <!--       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/RNN.md">RNN </a> -->
 <!--       <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/LSTM.ipynb">Code RNN_LSTM</a> -->
    
