@@ -51,10 +51,12 @@ De igual forma, se abordan los sistemas de recomendación con énfasis en algori
     <td>   <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_4.md"> Exercise_4 </a>
        
 <!--       <li> <a href="https://github.com/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Exercises/Exercise_3.md"> Exercise_3 </a> -->
-    
-    
+
 </tr> 
 <td> 4. Recommender Systems 
 <td>  <li> <a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/Recomm_Syst.ipynb">Code Recomm_Syst</a>
+<tr>
+<td> 5. tsne     
+<td> <li><a href="https://nbviewer.org/github/Fabiancaru/Advanced_Methods_Data_Analysis_II/blob/main/tsne.ipynb">Code t-SNE</a>
 </table> 
 
